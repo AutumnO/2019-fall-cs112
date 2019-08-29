@@ -7,6 +7,8 @@ Sup my dudes
 This is a link: [link to google](http://google.com).
 
 In VS-Code, press ctrl+shift+v to preview
+# 2019-fall-cs112
+Course repository for 2019 fall semester of cs 112
 
 ## Want to become a better programmer?  
 Check out the following links:
