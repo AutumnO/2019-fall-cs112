@@ -11,7 +11,20 @@ string removeAdjacentDuplicates(string original)
 	string result;
 	for (int i = 0; i < original.length() - 1; i++)
 	{
+		if (original[i] == ' ')
+		{
+
+		}
+		else
+		{
+			
+		}
+		
 		int space_index = original.find(' ', i);
+		int space_index2 = original.find(' ', i+1);
+
+		string word = original.substr(i, space_index);
+
 		//string temp = original.substr(0, i);
 		cout << space_index << endl;
 	}
