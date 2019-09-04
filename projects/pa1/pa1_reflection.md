@@ -1,10 +1,11 @@
-# Reflection Prompt
-Reflections should be at least 350 words long.
-* Describe a particular struggle that you overcame when working on this programming assignment.
-* Conversely, describe an issue with your assignment that you were unable to resolve.
-* Provide advice to a future student on how he or she might succeed on this assignment.
-* Describe the most fun aspect of the assignment.
-* Describe the most challenging aspect of the assignment.
-* Describe the most difficult aspect of the assignment to understand.
-* Provide any suggestions for improving the assignment in the future.
+Autumn Ossello PA1 Reflection
 
+The first part of this project was easy until the original master branch readme file was changed and created a merge conflict. Through this I discovered I should not keep the lecture repository in my Google Drive files. I also got a preview of how to resolve a merge conflict from Professor Carter, although I did not remember all the steps and how to get to them before I needed to return my computer to the library.
+
+This project was particularly difficult due to a lack of familiarity with GitHub, Git Bash, Visual Studio (Code), and the terms used in the assignment description. I attempted multiple techniques to create what I thought the assignment was asking but ran into issues each time, including those both related to the assignment, like error messages unrelated to a "merge conflict", as well as errors unique to my system. 
+
+As it turns out, the second attempt I made was correct, but I was attempting to push instead of pull from Visual Studio Code. I’m not sure what I did after but I said OK merge anyways and successfully merged the files with some extra numbers and odd compositions. The tutors at BSS 313 were also unclear on how to create the conflict, but between the three of us there we stumbled upon the steps required to create the merge conflict. 
+
+During my trials I practiced push, pull, and committing, learned the difference between Visual Studio and Visual Studio Code on vLab and how to access both, and began learning Git Bash commands, including switching between branches. Again, I’m not sure if I successfully merged the two versions, only that there’s a single conflict.md and that it contains text from both versions of conflict.md. 
+
+This assignment would have been significantly easier if I had any familiarity with GitHub outside of the Hackathon last semester, or if there were diagrams or pictures or more detailed descriptions of the process expected of me. To future students I would strongly recommend seeking outside help unless you already have experience with each of these programs, specifically with someone familiar with GitHub.
