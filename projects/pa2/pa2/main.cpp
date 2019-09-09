@@ -13,7 +13,8 @@ int main(void)
 	
 	string file_name;
 	string format;
-	string width_height;
+	string width_line;
+	string height_line;
 	int width; // change these three to ints
 	int height;
 	string max_pixel_line;
@@ -35,16 +36,19 @@ int main(void)
 	getline(fin, format);			//print image format
 	cout << "Image Format: " << format << endl;
 
-	getline(fin, width_height);		// print width and height
-	width = width_height.at(0);
+	getline(fin, width_line, ' ');		// print width
+	width = stoi(width_line);
 	cout << "Width: " << width << endl;
 
-	height = width_height.at(2);
+	getline(fin, height_line);		// print height
+	height = stoi(height_line);
 	cout << "Height: " << height << endl;
 
-	getline(fin, max_pixel);		//print max pixel value
+	getline(fin, max_pixel_line);		//print max pixel value
+	max_pixel = stoi(max_pixel_line);
 	cout << "Max Pixel Value: " << max_pixel << endl;
-	// int x = stoi(max_pixel); //example of how to use stoi from AC
+
+	// int x = stoi(max_pixel); -- example of how to use stoi from AC
 
 	cout << "Data: " << endl;		//print rest of tinypix
 	while (fin.eof() == false)
