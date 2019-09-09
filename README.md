@@ -10,6 +10,9 @@ In VS-Code, press ctrl+shift+v to preview
 # 2019-fall-cs112
 Course repository for 2019 fall semester of cs 112
 
+## Want Help?
+* Visit [my discussion forum](https://forum.lumberhacks.org/)!
+
 ## Windows Software
 * (*necessary*) [Git for Windows](https://git-scm.com/download/win)
 * (optional) [TortoiseGit](https://tortoisegit.org/download/)
