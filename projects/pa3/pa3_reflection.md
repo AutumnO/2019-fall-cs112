@@ -1,3 +1,5 @@
+Autumn Ossello CS 112 PA3 Reflection
+
 When I began working on this project in Monday’s lab, I began by trying to use familiar functions I
 was used to, and quickly fell down a formatting rabbit hole. Looking back now after completing the
 project, I’m actually glad I forgot to commit everything I’d done and had to start fresh later in
@@ -33,3 +35,6 @@ online documentation and honed my skills in understanding how to find specific c
 vectors and strings, which will serve me well going forward. I feel as though I was thoroughly 
 challenged by this project and learned a lot along the way, as well as gained confidence accessing 
 various resources and utilizing unfamiliar methods I previously would have avoided. 
+
+Here is the walkthrough GIF:
+![walkthrough](pa3_walkthrough.gif)
