@@ -85,6 +85,42 @@ public:
 		}
 	}
 
+	LinkedList<DATA_TYPE> mergeSorted(
+		const LinkedList<DATA_TYPE>& first, 
+		const LinkedList<DATA_TYPE>& second
+		)
+	{
+		ListNode<DATA_TYPE>* first_pointer = first._front;
+		ListNode<DATA_TYPE>* second_pointer = second._front;
+		LinkedList<DATA_TYPE> result{};
+		while(first_pointer != nullptr && second_pointer != nullptr)
+		{
+			if(first_pointer->getValue() < second_pointer->getValue())
+			{
+				result->addValue(first_pointer->getValue());
+				first_pointer = first_pointer->getNext();
+			}
+			else
+			{
+				result->addValue(second_pointer->getValue());
+				second_pointer = second_pointer->getNext();
+			}
+		}
+
+		//possible that one LL still has values
+		while(second_pointer != nullptr)
+		{
+			result->addValue(second_pointer->getValue());
+			second_pointer = second_pointer->getNext();
+		}
+		while(first_pointer != nullptr)
+		{
+			result->addValue(first_pointer->getValue());
+			first_pointer = first_pointer->getNext();
+		}
+		
+	}
+
 
 	//this is the copy operator
 	//in this version, we don't start off blank
